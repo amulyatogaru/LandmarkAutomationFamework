@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.landmark.qa.testcases.LandmarkHomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyPrintProductAddedToBasketTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.landmark.qa.testcases.LandmarkHomePageTest -->
+      <class name="com.landmark.qa.testcases.CheckOutPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.landmark.qa.testcases.CheckOutPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
